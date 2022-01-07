@@ -3,15 +3,13 @@ body{
     margin: 0;
 }
 
-.sect{
-    margin-bottom: 100px;
-}
 
 /* section 1 starts */
 
 .one{
     display: flex;
     flex-direction: row;
+    margin-bottom: 100px;
 }
 
 .left1{
@@ -22,8 +20,10 @@ body{
 
 .left1 h1{
     font-size: 55px;
+    padding-left: 10px;
     border-left: 3px solid tomato;
     border-radius: 2px;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .left1 h1 span{
@@ -53,7 +53,7 @@ body{
 .two .cont{
     display: flex;
     flex-direction: row;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .two h1{
@@ -101,7 +101,7 @@ body{
 .three-cont{
     display: flex;
     flex-direction: row;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .three{
@@ -134,9 +134,102 @@ body{
 
 /* section 4 starts */
 
+.m-div{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    margin-bottom: 100px;
+    padding-left: 10%;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 1050px 240px ;
+}
 
+.four h1{
+    font-size: 40px;
+    font-weight: 700;
+}
 
+.left4{
+    width: 50%;
+}
+
+.right4{
+    width: 50%;
+}
+
+.right4 img{
+    width: 60%;
+    padding-left: 10%;
+}
 
 
 /* section 5 starts */
 
+.five h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.five h1 span{
+    color: #eb9534d3;
+}
+
+.five .foot{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.left5{
+    width: 50%;
+    padding-left:31% ;
+}
+
+.left5 i{
+    color: tomato;
+}
+
+.left5 a{
+    text-decoration: none;
+    color: rgb(9, 4, 70);
+}
+
+.right5{
+    width: 50%;
+    padding-right: 29%;
+}
+
+.btn2{
+    color: white;
+    text-decoration: none;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 1px 2px;
+    font-weight: 500;
+   
+}
+
+/* footer starts */
+
+footer{
+    background-color: black;
+    height: 200px;
+    text-align: center;
+}
+
+footer h2{
+    color: white;
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: 'Lobster Two', cursive;
+}
+
+footer h2 span{
+    color: tomato;
+}
+
+footer p{
+    color: white;
+}
