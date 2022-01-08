@@ -144,6 +144,7 @@ body{
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: 1050px 240px ;
+    background-color: white;
 }
 
 .four h1{
@@ -170,6 +171,7 @@ body{
 .five h1{
     text-align: center;
     font-size: 40px;
+    color: black;
 }
 
 .five h1 span{
@@ -179,7 +181,7 @@ body{
 .five .foot{
     display: flex;
     flex-direction: row;
-    height: 500px;
+    height: 200px;
 }
 
 .left5{
@@ -215,7 +217,7 @@ body{
 
 footer{
     background-color: black;
-    height: 200px;
+    height: 150px;
     text-align: center;
 }
 
